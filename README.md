@@ -41,14 +41,14 @@ This file lets you extract and save your answers from a Testpad course that you 
 
 ## Instructions
 **Keep the browser window in focus while the program runs.**  
-Do not focus away from browser. If you switch to another app or window, the program may not work correctly and could fail to submit answers.
+Do not focus away from browser. If you switch to another app or window, the program may fail to complete some questions.
 
 #### What to Do If a Question Fails
 
-Sometimes, a question may not get completed on the first try. This can happen if you accidentally switch away from the browser window, or sometimes due to server issues.
+Sometimes, a question may not get completed on the first attempt. This can happen if you switch away from the browser window, if a browser alert happens or if website takes longer than usual to respond.
 
 - If this happens, the program will pause and show a message asking you to press Enter.
-- Go to your program window (for example, Jupyter Notebook or terminal), and press Enter as instructed.
+- Go to your program window, and press Enter as instructed.
 - After pressing Enter, immediately switch back to the browser window and keep it in focus.
 - The program will retry the question and continue with the rest of the course.
 
@@ -61,8 +61,8 @@ Sometimes, a question may not get completed on the first try. This can happen if
 - `QUESTIONS_TO_BE_SKIPPED`: This is a list of questions that program will not attempt, due to some technical error on Testpad.
 
 - `HEADLESS`: This setting controls whether the browser runs in the background (default: `FALSE`).
-    - If you set `HEADLESS` to `True`, you do **not** need to keep the browser window in focus (as browser would be non-visible). You can use your computer for other tasks while the program runs.
-    - If `HEADLESS` is `False`, you **must** keep the browser window in focus for the program to work
+    - If you set `HEADLESS` to `True`, you do **not** need to keep the browser window in focus (as browser would be non-visible).
+    - If `HEADLESS` is `False`, you **must** keep the browser window in focus for the program to fully work.
 
 ## Other information
 
