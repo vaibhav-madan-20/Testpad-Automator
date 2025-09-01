@@ -2,6 +2,8 @@
 
 # Testpad Automator
 
+> Please give a GitHub star ⭐️ if you found this useful!
+
 [Testpad](https://login.testpad.chitkara.edu.in/login) is an online course assessment portal used by Chitkara University. This Python program automates course completion by submitting answers from pre-existing solutions.
 
 ---
