@@ -27,7 +27,7 @@ This file lets you extract and save your answers from a Testpad course that you 
 
 1. **Install required libraries:**
    ```sh
-   python -m pip install selenium==4.22.0
+   python -m pip install python-dotenv selenium==4.22.0
    ```
 
 2. **Create a `.env` file with your credentials:**
